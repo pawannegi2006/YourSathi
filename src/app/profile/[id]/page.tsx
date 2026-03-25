@@ -1,6 +1,6 @@
 "use client"
 import { useParams } from "next/navigation"
-import Link from "next/link"
+
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Star, ShieldCheck, MapPin, CheckCircle } from "lucide-react"
@@ -68,7 +68,7 @@ export default function ProfilePage() {
                   </div>
                 </div>
                 <p className="text-[14px] text-muted-foreground leading-relaxed mt-1">
-                  "Very quick and reliable. Delivered my tiffin perfectly on time. Will definitely trust again."
+                  &quot;Very quick and reliable. Delivered my tiffin perfectly on time. Will definitely trust again.&quot;
                 </p>
                 <div className="text-[12px] text-muted-foreground/50 mt-2">Task: Tiffin Delivery • 2 days ago</div>
               </div>
@@ -94,7 +94,7 @@ export default function ProfilePage() {
                   </div>
                 </div>
                 <p className="text-[14px] text-muted-foreground leading-relaxed mt-1">
-                  "Took great care of my dog while I was working late. So helpful!"
+                  &quot;Took great care of my dog while I was working late. So helpful!&quot;
                 </p>
                 <div className="text-[12px] text-muted-foreground/50 mt-2">Task: Pet Care • 1 week ago</div>
               </div>

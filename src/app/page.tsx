@@ -44,7 +44,7 @@ export default function Home() {
         </h1>
         
         <p className="text-[18px] md:text-[20px] text-muted-foreground max-w-2xl mb-10 leading-[1.5]">
-          Connect with locals for urgent micro-tasks. Apna locality batao — baaki hum dekhenge. Let's make everyday life a little easier, together.
+          Connect with locals for urgent micro-tasks. Apna locality batao — baaki hum dekhenge. Let&apos;s make everyday life a little easier, together.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
@@ -113,7 +113,7 @@ export default function Home() {
       <section className="py-24 px-6 max-w-[1120px] mx-auto w-full">
         <div className="flex justify-between items-end mb-12">
           <div>
-            <h2 className="text-[32px] font-semibold tracking-tight text-primary mb-4">What's happening nearby</h2>
+            <h2 className="text-[32px] font-semibold tracking-tight text-primary mb-4">What&apos;s happening nearby</h2>
             <p className="text-[18px] text-muted-foreground">Categories to help you get started.</p>
           </div>
           <div className="hidden sm:block">

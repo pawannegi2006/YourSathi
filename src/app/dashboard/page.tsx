@@ -38,7 +38,7 @@ export default function DashboardPage() {
               className={`pb-4 text-[15px] font-medium transition-colors relative ${activeTab === 'doing' ? 'text-primary' : 'text-muted-foreground hover:text-primary'}`}
               onClick={() => setActiveTab('doing')}
             >
-              Tasks I'm Doing ({myDoingTasks.length})
+              Tasks I&apos;m Doing ({myDoingTasks.length})
               {activeTab === 'doing' && (
                 <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-primary" />
               )}
